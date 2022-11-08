@@ -2,7 +2,7 @@
   "name": "com.sarpersoher.ide.sublimetext",
   "displayName": "Sublime Text Code Editor",
   "description": "Code editor integration for supporting Sublime Text as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, generating the sublime-project file with default ignored extensions (e.g. .meta files), etc.",
-  "version": "1.0",
+  "version": "1.0.0",
   "unity": "2019.2",
   "relatedPackages": {
     "com.unity.ide.vscode.tests": "1.2.5"
