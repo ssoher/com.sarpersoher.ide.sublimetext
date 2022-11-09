@@ -17,7 +17,7 @@ namespace SublimeTextCodeEditor {
         IDiscovery m_Discoverability;
         IGenerator m_ProjectGeneration;
 
-        static readonly string[] k_SupportedFileNames = { "sublime_text.exe", "sublime_text.app" };
+        static readonly string[] k_SupportedFileNames = { "sublime_text.exe", "sublimetext.app" };
 
         static bool IsOSX => Application.platform == RuntimePlatform.OSXEditor;
 
@@ -177,15 +177,7 @@ namespace SublimeTextCodeEditor {
         }
 
         static bool OpenOSX(string arguments) {
-            var process = new Process {
-                StartInfo = new ProcessStartInfo {
-                    FileName = "open",
-                    Arguments = $"-n \"{DefaultApp}\" --args {arguments}",
-                    UseShellExecute = true,
-                }
-            };
-
-            process.Start();
+            Process.Start($"{DefaultApp}/Contents/SharedSupport/bin/subl", arguments);
             return true;
         }
 
@@ -221,6 +213,7 @@ namespace SublimeTextCodeEditor {
             var filename = Path
                 .GetFileName(lowerCasePath.Replace('\\', Path.DirectorySeparatorChar).Replace('/', Path.DirectorySeparatorChar))
                 .Replace(" ", "");
+
             return k_SupportedFileNames.Contains(filename);
         }
 
