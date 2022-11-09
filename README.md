@@ -2,7 +2,7 @@ Sublime Text integration for the Unity game engine.
 
 # How to Install
 1) Open Unity package manager.
-2) Click the `+` button on the top left of the package manager window. 
+2) Click the `+` button on the top left of the package manager window.
 3) Select the option "Add package from git URL".
 4) Copy and paste the url of this repository `https://github.com/ssoher/com.sarpersoher.ide.sublimetext.git` and click the Add button.
 5) Once the package is downloaded and added to your project, open the Edit->Preferences->External Tools area. From the External Script Editor dropdown, select Browse and find your `sublime_text.exe`.
@@ -18,10 +18,6 @@ Sublime Text integration for the Unity game engine.
 
 # Requirements
 You must install the LSP and LSP-Omnisharp package for your installation of Sublime Text to be able to work with C# projects. That's all.
-
-# Known issues
-- Not tested on MacOS or Linux yet, I'm 99% it will fail on trying to open the project due to badly formed command line arguments. I will test and fix it asap.
-
 
 # Screenshot
 ![image](https://user-images.githubusercontent.com/4283979/200619168-3132de72-7844-436f-974b-7d6017e1c3e4.png)
