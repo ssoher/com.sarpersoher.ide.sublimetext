@@ -8,7 +8,7 @@ Sublime Text integration for the Unity game engine.
 - Automatic generation of the `sln` file and `csproj` files per assembly.
 - Automatic generation of the `sublime-project` with default excluded file/folders for meta files, library folder etc.
 - Opens correct line/column.
-- Context menu "Open C# Project" works as intended with Sublime Text now.
+- Context menu "Open C# Project" works as intended with Sublime Text now (opens the auto-generated .sublime-project file).
 - Syncs correctly.
 
 # How to Install
