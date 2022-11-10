@@ -21,7 +21,7 @@ Sublime Text integration for the Unity game engine.
 # How to Use
 1) `Assets->Open C# Project` opens the asssociated Sublime Text projects (sublime-project file created automatically at the root of your Unity project).
 2) Double clicking any script file opens the script in the active Sublime Text instance.
-3) Console messages open the associated script at the correct line & column.
+3) Console messages and stack traces open the associated script at the correct line & column.
 
 # Requirements
 You must install the LSP and LSP-Omnisharp package for your installation of Sublime Text to be able to work with C# projects. That's all.
