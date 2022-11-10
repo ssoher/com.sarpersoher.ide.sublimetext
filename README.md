@@ -16,11 +16,10 @@ Sublime Text integration for the Unity game engine.
 2) Click the `+` button on the top left of the package manager window.
 3) Select the option "Add package from git URL".
 4) Copy and paste the url of this repository `https://github.com/ssoher/com.sarpersoher.ide.sublimetext.git` and click the Add button.
-5) Once the package is downloaded and added to your project, open the Edit->Preferences->External Tools area. From the External Script Editor dropdown, select Browse and find your `sublime_text.exe` (`Sublime Text.app` if you are on macOS).
-6) That's it! Context menu `Open C# Project` and double clicking scripts and console logs will just work now. Your sublime-project file, csproj files and the sln file will be created automatically.
+5) Once the package is downloaded and added to your project, open the Edit->Preferences->External Tools area. From the External Script Editor dropdown, select Browse and find your `sublime_text.exe` (`Sublime Text.app` if you are on macOS). Your sublime-project file, csproj files and the sln file will be created automatically. There is also a `Regenerate project files` button to refresh solution related files at will.
 
 # How to Use
-1) `Assets->Open C# Project` opens the asssociated Sublime Text projects (created automatically in the root of your Unity project).
+1) `Assets->Open C# Project` opens the asssociated Sublime Text projects (sublime-project file created automatically at the root of your Unity project).
 2) Double clicking any script file opens the script in the active Sublime Text instance.
 3) Console messages open the associated script at the correct line & column.
 
