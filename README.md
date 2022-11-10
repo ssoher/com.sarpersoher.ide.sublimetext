@@ -1,5 +1,8 @@
 Sublime Text integration for the Unity game engine.
 
+![image](https://user-images.githubusercontent.com/4283979/200619168-3132de72-7844-436f-974b-7d6017e1c3e4.png)
+
+
 # Features
 - Unity "Preferences/External Tools" menu integration.
 - Automatic generation of the `sln` file and `csproj` files per assembly.
@@ -20,6 +23,3 @@ Sublime Text integration for the Unity game engine.
 You must install the LSP and LSP-Omnisharp package for your installation of Sublime Text to be able to work with C# projects. That's all.
 + https://github.com/sublimelsp/LSP
 + https://github.com/sublimelsp/LSP-OmniSharp
-
-# Screenshot
-![image](https://user-images.githubusercontent.com/4283979/200619168-3132de72-7844-436f-974b-7d6017e1c3e4.png)
