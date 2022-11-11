@@ -24,7 +24,7 @@ Sublime Text integration for the Unity game engine.
 3) Console messages and stack traces open the associated script at the correct line & column.
 
 # Requirements
-You must install the LSP and LSP-Omnisharp package for your installation of Sublime Text to be able to work with C# projects. You should also install the "LSP-file-watcher-chokidar" package so that LSP-OmniSharp (or any other language server) receives file system change events and index the newly created files. Without this, the new files you create won't be indexed unless you restart Omnisharp server.
+You must install the LSP and LSP-Omnisharp package for your installation of Sublime Text to be able to work with C# projects. You should also install the "LSP-file-watcher-chokidar" package so that LSP-OmniSharp (or any other language server) receives file system change events and index the newly created files. Without this, the new files you create won't be indexed unless you restart the Omnisharp server.
 + https://github.com/sublimelsp/LSP
 + https://github.com/sublimelsp/LSP-OmniSharp
 + https://github.com/sublimelsp/LSP-file-watcher-chokidar
