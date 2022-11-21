@@ -38,7 +38,7 @@ namespace SublimeTextCodeEditor {
         {
             ""path"": ""."",
             ""folder_exclude_patterns"": ["".svn"", ""Library"", ""Logs"", ""obj"", ""Temp""],
-            ""file_include_patterns"": [""*.cs"", ""*.md"", ""*.sublime-project"", ""*.txt"", ""*.shader"", ""*.bat"", ""*.csproj"", ""*.sln""]
+            ""file_include_patterns"": [""*.cs"", ""*.md"", ""*.sublime-project"", ""*.sublime-workspace"", ""*.txt"", ""*.shader"", ""*.bat"", ""*.csproj"", ""*.sln""]
         }
     ],
 }
