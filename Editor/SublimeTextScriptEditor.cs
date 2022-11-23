@@ -142,6 +142,10 @@ namespace SublimeTextCodeEditor {
         }
 
         public bool OpenProject(string path, int line, int column) {
+            if (path != "" && (!SupportsExtension(path) || !File.Exists(path))) {
+                return false;
+            }
+
             if(line == -1)
                 line = 1;
             if(column == -1)
