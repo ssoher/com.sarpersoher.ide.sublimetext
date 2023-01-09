@@ -155,7 +155,7 @@ namespace SublimeTextCodeEditor {
 
             if(path == string.Empty) {
                 string projectFileName = $"{Path.GetFileName(m_ProjectGeneration.ProjectDirectory)}.sublime-project";
-                arguments = $@"--project {projectFileName}";
+                arguments = $@"--project ""{projectFileName}""";
 
             } else {
                 arguments = $@"""{path}"":{line}:{column}";
