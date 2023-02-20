@@ -17,7 +17,7 @@ namespace SublimeTextCodeEditor {
         IDiscovery m_Discoverability;
         IGenerator m_ProjectGeneration;
 
-        static readonly string[] k_SupportedFileNames = { "sublime_text.exe", "sublimetext.app" };
+        static readonly string[] k_SupportedFileNames = { "sublime_text.exe", "sublimetext.app", "sublime_text" };
 
         static bool IsOSX => Application.platform == RuntimePlatform.OSXEditor;
 

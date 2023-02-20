@@ -38,7 +38,9 @@ namespace SublimeTextCodeEditor {
                 "/usr/local/bin/sublime_text",
                 "/snap/current/bin/sublime_text",
                 "/snap/bin/sublime_text",
-                "/snap/sublime_tex/current/opt/_sublime_text"
+                "/snap/sublime_tex/current/opt/_sublime_text",
+                "/usr/bin/subl",
+                "/opt/sublime_text/sublime_text"
             };
 #endif
             var existingPaths = possiblePaths.Where(SublimeTextExists).ToList();
