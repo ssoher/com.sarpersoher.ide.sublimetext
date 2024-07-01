@@ -23,7 +23,7 @@ Sublime Text integration for the Unity game engine.
 2) Double clicking any script file opens the script in the active Sublime Text instance.
 3) Console messages and stack traces open the associated script at the correct line & column.
 
-# Recommended ST Packages for IDE like experience
+# Recommended ST Packages for IDE like experience (Optional)
 It is recommended that you install the LSP and LSP-Omnisharp package for your installation of Sublime Text for ide-like support for C# projects. You should also install the "LSP-file-watcher-chokidar" package so that LSP-OmniSharp (or any other language server) receives file system change events and index the newly created files. Without this, the new files you create won't be indexed unless you restart the Omnisharp server.
 + https://github.com/sublimelsp/LSP
 + https://github.com/sublimelsp/LSP-OmniSharp
